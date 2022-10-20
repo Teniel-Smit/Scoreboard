@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+body {
+
+    margin: 0;
+    background: #1B2440;
+
+}
+
+.container {
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+h3 {
+
+    color: #EEEEEE;
+    height: 36px;
+    width: 149px;
+    top: 68px;
+    border-radius: nullpx;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+ 
+}
+
+.homeheading {
+    left: 85px;
+}
+
+.guestheading {
+
+    left: 340px;
+}
+
+#homecontainer {
+
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+.guestcontainer {
+
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+#guest-score {
+
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    left: 337px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+#home-score {
+   
+    width: 155px;
+    height: 120px;
+    left: 100px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    color: #F94F6D;
+    line-height: 127px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 90px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#guest-score {
+    width: 155px;
+    height: 120px;
+    left: 355px;
+    top: 125px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+
+button {
+
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    background-color:#1B2440;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+}
+
+#home-score-btn-1 {
+    left: 82px;
+}
+
+#home-score-btn-2 {
+    left: 136px;
+}
+
+#home-score-btn-3 {
+    left: 192px;
+}
+
+#guest-score-btn-1 {
+    left: 337px;
+}
+
+#guest-score-btn-2 {
+    left: 391px;
+}
+
+#guest-score-btn-3 {
+    left: 447px;
+}
